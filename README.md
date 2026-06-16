@@ -54,6 +54,13 @@ npm run check
 The demo prints a JSON summary with the derived PDA addresses, spend decisions,
 and the live SDK call plan.
 
+For a clean clone or CI environment, use:
+
+```bash
+npm ci
+npm run check
+```
+
 You can override the illustrative addresses and allowance values:
 
 ```bash
